@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "751127365219",
+    "project_id": "thbaikiemtra2-04",
+    "storage_bucket": "thbaikiemtra2-04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751127365219:android:54c40fc2d3bfce433c9a56",
+        "android_client_info": {
+          "package_name": "com.example.thbaikiemtra2_04"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751127365219-ba1ldkcq3lacgg36vsjfubnf9np0fv2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXAsc31HxCz5bXTuihxAZ_J8K1hhnxC3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751127365219-ba1ldkcq3lacgg36vsjfubnf9np0fv2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

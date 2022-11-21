@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#1868A6">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img1"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:padding="15dp" />
+
+        <TextView
+            android:id="@+id/nametext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:text="Tên thường gọi"
+            android:textColor="#F2F3F6"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nametext"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:text="khoa học"
+            android:textColor="#EBEEF3"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/dactinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name2"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:src="@drawable/ic_update"
+            android:text="đặc tính"
+            android:textColor="#EBEEF3"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/maula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dactinh"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/img1"
+            android:src="@drawable/ic_update"
+            android:text="màu lá"
+            android:textColor="#EBEEF3"
+            android:textSize="15dp" />
+
+
+        <ImageView
+            android:id="@+id/imgdelete"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="150dp"
+            android:layout_toRightOf="@+id/img1"
+            android:src="@drawable/ic_delete" />
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
